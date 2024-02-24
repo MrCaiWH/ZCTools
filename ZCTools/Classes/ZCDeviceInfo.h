@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) NSString *systemVersion;
 
+@property (nonatomic, copy) NSString *systemLanguage;
+
 @end
 
 NS_ASSUME_NONNULL_END

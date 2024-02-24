@@ -1,5 +1,5 @@
 PODS:
-  - ZCTools (0.1.0)
+  - ZCTools (0.2.0)
 
 DEPENDENCIES:
   - ZCTools (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZCTools: 1475af96771e1356acbd76bd2da87ea3c64c226f
+  ZCTools: 418cf8e78c39cce0fa35a3cce5cbcfd4ff3ca1ec
 
 PODFILE CHECKSUM: 7656f411094c7f3dacb4f51abe09a6555eecc98c
 

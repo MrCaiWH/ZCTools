@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZCDeviceInfo.h"
 #import "ZCQueue.h"
 
 FOUNDATION_EXPORT double ZCToolsVersionNumber;

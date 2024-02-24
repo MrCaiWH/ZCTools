@@ -16,4 +16,16 @@
     return _systemVersion;
 }
 
+- (NSString *)systemLanguage {
+    if (_systemLanguage == nil) {
+        NSLocale *locale = [NSLocale currentLocale];
+        if ([[NSLocale preferredLanguages] count] > 0) {
+            _systemLanguage = [[NSLocale preferredLanguages] objectAtIndex:0];
+        } else {
+            _systemLanguage = [locale objectForKey:NSLocaleLanguageCode];
+        }
+    }
+    return _systemLanguage;
+}
+
 @end
