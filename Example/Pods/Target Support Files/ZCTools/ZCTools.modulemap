@@ -1,0 +1,6 @@
+framework module ZCTools {
+  umbrella header "ZCTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
