@@ -11,6 +11,8 @@
 		19B522008C6696AE8250A8FC3BA8C3CA /* Pods-ZCTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 429A03DC8944F249BB3CB909438DC357 /* Pods-ZCTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CC1CCB59F7926767181B5DFCE5CC45D /* ZCQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FD744DDED266E929BFDBF7BF92E475 /* ZCQueue.m */; };
 		42EF0A6B0F2E810071BFE7302C66AA09 /* Pods-ZCTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC743462C92FF41B6DAD137CF560301 /* Pods-ZCTools_Tests-dummy.m */; };
+		4F58015A2B89E3D60020678B /* ZCDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5801582B89E3D60020678B /* ZCDeviceInfo.h */; };
+		4F58015B2B89E3D60020678B /* ZCDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5801592B89E3D60020678B /* ZCDeviceInfo.m */; };
 		597C9FBF9D44E7BEB656109128F97E69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6D236938815B13C521F791DF0D42BA39 /* ZCQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F7056D340B4B05EF29EF2F50C4529FF7 /* ZCQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7328DF665B7854F55B9C04D220434A14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -29,19 +31,21 @@
 
 /* Begin PBXFileReference section */
 		383BA4C8AD7D0B2352E4FA32B6EFFB92 /* Pods-ZCTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		395FB51AC5FF3D69D712718CA7BBB4DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		395FB51AC5FF3D69D712718CA7BBB4DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		418EAC83419B68694A177EB9C4A9AA07 /* Pods-ZCTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		429A03DC8944F249BB3CB909438DC357 /* Pods-ZCTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZCTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4334ADE9DF9B0F2C2AE976601F3A00DB /* Pods-ZCTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4642E4C258FA85EAE059A7C8FF4EE48C /* ZCTools */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZCTools; path = ZCTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A57E04B72114CEEC5049AA159AD282 /* Pods-ZCTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F5801582B89E3D60020678B /* ZCDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZCDeviceInfo.h; path = ZCTools/Classes/ZCDeviceInfo.h; sourceTree = "<group>"; };
+		4F5801592B89E3D60020678B /* ZCDeviceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZCDeviceInfo.m; path = ZCTools/Classes/ZCDeviceInfo.m; sourceTree = "<group>"; };
 		6DD2A75DCAC05256AAC42ABA1C7CDD87 /* Pods-ZCTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCTools_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7B4AAC34899A54ECCDF3C9392EACAE58 /* ZCTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZCTools-Info.plist"; sourceTree = "<group>"; };
 		81B49B37B133FFD07B86FA5D383055C1 /* ZCTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCTools-dummy.m"; sourceTree = "<group>"; };
-		943411BBF312FDDAA8E58C12A23AED2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		943411BBF312FDDAA8E58C12A23AED2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		98AE73D22BDC06FC7D7CCB7C6561316D /* Pods-ZCTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZCTools_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BDD50032585B7593F2803CB233094A49 /* ZCTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCTools.release.xcconfig; sourceTree = "<group>"; };
 		BF37348481C401B9D76A1FF8FD10512F /* Pods-ZCTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZCTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BF9A8CC7C0BA0C064AA47BDFD22596CA /* ZCTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCTools-umbrella.h"; sourceTree = "<group>"; };
@@ -52,7 +56,7 @@
 		DBE724C317BA4EE81D0B3ECBA782B6AE /* ZCTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCTools-prefix.pch"; sourceTree = "<group>"; };
 		EECC89C4795612EDBBD67F6A42F86AB3 /* Pods-ZCTools_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZCTools_Tests"; path = Pods_ZCTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7056D340B4B05EF29EF2F50C4529FF7 /* ZCQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCQueue.h; path = ZCTools/Classes/ZCQueue.h; sourceTree = "<group>"; };
-		FA045CBDB7303BE6B273A0F72868A308 /* ZCTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA045CBDB7303BE6B273A0F72868A308 /* ZCTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZCTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 				D6FD744DDED266E929BFDBF7BF92E475 /* ZCQueue.m */,
 				9B4E3E8D409D601F476E0C514EF9EE7A /* Pod */,
 				B83F0A0194C15EFE02911BFAA2300CB8 /* Support Files */,
+				4F5801582B89E3D60020678B /* ZCDeviceInfo.h */,
+				4F5801592B89E3D60020678B /* ZCDeviceInfo.m */,
 			);
 			name = ZCTools;
 			path = ../..;
@@ -196,6 +202,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F58015A2B89E3D60020678B /* ZCDeviceInfo.h in Headers */,
 				6D236938815B13C521F791DF0D42BA39 /* ZCQueue.h in Headers */,
 				9DC6AA02274B137EF494EE13EDF05671 /* ZCTools-umbrella.h in Headers */,
 			);
@@ -300,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC1CCB59F7926767181B5DFCE5CC45D /* ZCQueue.m in Sources */,
+				4F58015B2B89E3D60020678B /* ZCDeviceInfo.m in Sources */,
 				033EB8E6BE1AA53BF8CBF9D3D95F6F80 /* ZCTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,8 +509,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
